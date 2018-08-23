@@ -29,3 +29,21 @@ body{
   max-width: 960px;
   margin: 0 auto;
 }
+
+.banner-container{
+  height: 25rem;
+  background-image: url(../images/moto.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.banner-text{
+  color: white;
+  width: 20rem;
+}
+
+
+.banner-text span{
+  padding: 2rem 0rem .25rem 3rem;
+}
