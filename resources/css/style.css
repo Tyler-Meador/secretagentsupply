@@ -92,3 +92,11 @@ nav ul{
 .product-img img{
   max-width: 8rem;
 }
+
+.product-info{
+  background-color: black;
+  color: white;
+  display: block;
+  padding: 0.5rem 0;
+  text-align: center;
+}
