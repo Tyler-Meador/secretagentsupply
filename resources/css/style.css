@@ -25,7 +25,7 @@ body{
     padding-left: .5rem;
 }
 
-.logo{
+.container{
   max-width: 960px;
   margin: 0 auto;
 }
@@ -41,9 +41,18 @@ body{
 .banner-text{
   color: white;
   width: 20rem;
+  background-color: black;
+  position: relative;
+  padding: 2rem 3rem;
+  top: 9rem;
 }
 
+.banner-text h4{
+  font-weight: bold;
+}
 
-.banner-text span{
-  padding: 2rem 0rem .25rem 3rem;
+.banner-text h1{
+  font-weight: bold;
+  margin: 0.25rem 0;
+  font-size: 2rem;
 }
