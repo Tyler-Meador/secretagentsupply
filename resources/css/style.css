@@ -100,3 +100,94 @@ nav ul{
   padding: 0.5rem 0;
   text-align: center;
 }
+
+.information{
+  display: flex;
+  margin: 3rem 0 0 0;
+  justify-content: space-between;
+}
+
+.content{
+  width: 35%;
+}
+
+.content .title{
+  display: block;
+  background-color: black;
+  color: white;
+  padding: 1rem 2rem;
+}
+
+footer{
+  margin-top: 4rem;
+  background-color: black;
+  padding: 5rem 0;
+  color: white;
+}
+
+@media only screen and (min-width: 1024px){
+  .mobile {
+    display: none;
+  }
+}
+
+
+@media only screen and (max-width: 1024px){
+  nav ul{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1024px){
+  .mobile {
+    display: block;
+    text-align: center;
+  }
+  .product{
+    width: 47%;
+  }
+  .ThermGlasses{
+    display: none;
+  }
+  .content{
+    width: 35%;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .banner-text h4{
+    font-family: Helvetica;
+    font-size: 0.77rem;
+    font-weight: bold;
+  }
+  .banner-text h1{
+    font-family: Helvetica;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  .banner-text{
+    top: 10rem;
+    padding: 1rem 2rem;
+  }
+  .banner-container{
+    height: 15rem;
+  }
+  .product{
+    width: 90%;
+    margin: auto;
+  }
+  .CellWatch{
+    display: none;
+  }
+  .content{
+    width: 90%;
+    margin-bottom: 0.5rem;
+  }
+  .information{
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 0.5rem;
+  }
+
+
+}
